@@ -16,4 +16,6 @@ file associated with that one is doing the heavy lifting.
 
 I see that this is NOT the answer.  I cloned the most recent tabula_railsa from
 your github, and there are only two files in views/home.  There is no partial.
-Unless, I'm not looking in the right place. 
+Unless, I'm not looking in the right place.
+
+SHOOT!  Should have read the directions.  Completely misunderstood the challenge.

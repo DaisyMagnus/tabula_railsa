@@ -1,4 +1,5 @@
 class HomeController < ApplicationController
+ before_action: validates uniqueness: :name
 
   def new
     @survey = Survey.new
@@ -6,6 +7,7 @@ class HomeController < ApplicationController
 
   def create
     @survey = Survey.new(survey_params)
+    
 
     respond_to do |format|
       if @survey.save
