@@ -19,8 +19,24 @@
 // When the button to submit the form is clicked, disable the button so that the
 // user cannot double-click. Try not to use jQuery, but if you have to, so be it.
 
-function disableButton() {
-    document.getElementById("button").disabled = true;
-}
+// function disableButton() {
+//     document.getElementById("button").disabled = true;
+// }
+//
+// onclick="disableButton()"
 
-onclick="disableButton()"
+(document).ready(function(){
+    $(#hideCheckbox).change(function(){
+      if (page loads..not sure how to write that)
+        $('#hideCheckbox').hide();
+      else
+        $('#hideCheckbox').show();
+      });
+});
+
+
+Using jQuery, hide the checkboxes and their labels when the form page loads.
+
+When the user types in his or her name, show the checkboxes.
+
+If the user totally deletes his or her name, hide the checkboxes again.
